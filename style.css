@@ -1,0 +1,98 @@
+html {
+    font-size: 16px;
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FAF8EB;
+}
+
+a {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav li {
+    padding: 4rem;
+    display: inline-block;
+}
+
+.logo {
+    max-height: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    background-size: cover;
+    background-position: top 15rem;
+    background-image: url('/Users/clemence2/Projects/Challenge Project 4 pizza/resources/images/pizza1.jpg')
+}
+
+h1 {
+    color: FAF8EB;
+    font-family: 'Righteous';
+    font-size: 5rem;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+
+.block img {
+    max-width: 50%;
+}
+
+.block .text {
+    margin: 2rem;
+}
+
+h2 {
+    font-family: Righteous;
+    color:#FF0707;
+    font-size: 2rem;
+}
+
+.end {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 9rem;
+}
+
+.end p {
+font-family: Righteous;
+background-color: #FF0707;
+color:#FAF8EB;
+padding: 1rem 1.5rem;
+border: 1px solid #FAF8EB;
+border-radius: 0.4rem;
+letter-spacing: 0.1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    nav li {
+        padding: 1rem;
+        display: inline-block;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem;
+    }
+    .block img {
+        max-width: 100%;
+    }
+
+}
