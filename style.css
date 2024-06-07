@@ -86,11 +86,30 @@ letter-spacing: 0.1rem;
         padding: 1rem;
         display: inline-block;
     }
+
+    .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-size: cover;
+    background-position: top 15rem;
+    background-image: url('pizza1.jpg')
+}
+
+h1 {
+    color: FAF8EB;
+    font-family: 'Righteous';
+    font-size: 3rem;
+}
+
+    
     .block {
         display: flex;
         flex-direction: column;
         margin: 5rem;
     }
+    
     .block img {
         max-width: 100%;
     }
