@@ -28,22 +28,6 @@ nav li {
     max-height: 100%;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30rem;
-    background-size: cover;
-    background-position: top 15rem;
-    background-image: url('pizza1.jpg')
-}
-
-h1 {
-    color: FAF8EB;
-    font-family: 'Righteous';
-    font-size: 5rem;
-}
-
 .block {
     display: flex;
     flex-direction: row;
