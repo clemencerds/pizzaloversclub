@@ -72,30 +72,22 @@ letter-spacing: 0.1rem;
     }
 
     .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20rem;
-    background-size: cover;
-    background-position: top 15rem;
-    background-image: url('pizza1.jpg')
-}
-
-h1 {
-    color: FAF8EB;
-    font-family: 'Righteous';
-    font-size: 3rem;
-}
-
+        text-align: center;
+    }
     
     .block {
         display: flex;
         flex-direction: column;
-        margin: 5rem;
+        margin: 2rem 0rem;
     }
-    
     .block img {
         max-width: 100%;
     }
-
+    .block .text {
+        margin: 0rem;
+        text-align: justify;
+    }
+    #block2 {
+        flex-direction: column-reverse;
+    }
 }
